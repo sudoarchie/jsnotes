@@ -7,3 +7,11 @@
     }
     console.log(user.UserName)
 })();
+((name)=>{
+console.log(`HI ${name}`)
+})("shivam");
+
+//Named iife 
+(function userData(username){
+    console.log(`Hi my name is ${username}`)
+})("Shivam"); 

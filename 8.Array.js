@@ -18,7 +18,7 @@ myArr1.shift()//This will remove the first element of the array
 console.log(myArr1.includes(43))// It will return boolean true or false
 console.log(myArr1.indexOf(3))//it will return the index of element which hit first and if there is no such element then it will return -1
 
-const newArr = myArr1.join();
+const newArr = myArr1.join();//The `join()` method in arrays puts together all the items in the array to make a new string. It adds commas between the items or a specific separator that you choose. If there's only one item in the array, it just gives back that item without any separator.
 
 
 console.log(myArr1);

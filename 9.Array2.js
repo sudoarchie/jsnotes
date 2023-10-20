@@ -26,3 +26,7 @@ let physics =120
 let chemistry = 110
 
 console.log(Array.of(math, physics, chemistry))
+
+const arr = [32,34,43,12]
+const newA = arr.reduce(((num1, num2)=>num1 + num2), 0)
+console.log(newA)

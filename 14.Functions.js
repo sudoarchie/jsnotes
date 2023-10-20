@@ -33,11 +33,13 @@ console.log(abcaccepter(abc))
 
 ///---------------------------------------------
 
+//In this case you can call it before declerationm
+addOne(78)
 function addOne(num){
     return num + 1
 }
 addOne(78)
-//this is also a function but some time it is called expression
+//this is also a function but some time it is called expression.But in this case you can't call it before decleration
 const addTwo = function(num){
     return num + 2
 }
